@@ -1,0 +1,245 @@
+@import url(reset.css);
+
+.wrapper {
+    display: flex;
+    flex-flow: column nowrap;
+    
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1920px;
+    
+}
+
+.header {
+
+    height: 95px;
+    background: #020509;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #D4DDE1;
+    
+}
+
+.flex_content {
+    
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 300px;
+    
+     
+}
+
+.block_list {
+    display: flex;
+    column-gap: 42px;
+}
+
+.block_list > li a.active {
+    color: red;
+}
+
+.block_list > li a:hover {
+    color: red;
+}
+
+.block_list > li a {
+    text-decoration: none;
+    color: #D4DDE1;
+    
+}
+
+
+
+.logo {
+    font-size: 16px;
+    font-weight: 900;
+}
+
+.part1  {
+    background: rgba(255, 206, 56, 0.05);
+    height: 700px;
+}
+
+.lorem1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 300px;
+    padding-top: 252px;
+    padding-right: 1079px;
+    width: 540px;
+
+}
+.deziver {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+
+h2 {
+    font-size: 48px;
+    font-weight: 500;
+    color: #020509;
+    line-height: 78.75px;
+    
+}
+
+.text {
+    text-align: left;
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 45px;
+    padding-right: 100px; 
+    padding-bottom: 45px;
+}
+
+.button {
+    background-color: #FFCE38;
+    border: none;
+    color: black;
+    padding: 24px 37px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 151px;
+    margin-bottom: 181px; 
+}
+
+.part2 {
+    background: rgba(0, 207, 250, 0.05);
+    
+}
+
+.lorem2 > h2 {
+    
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 37.5px;
+    display: flex;
+    text-align: center;
+    padding-top: 84px; 
+} 
+
+.lorem2 {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 84px 760px;
+    
+      
+}
+
+.obomne {
+    text-align: center;
+    padding-left: 690px;
+    padding-right: 690px;
+    width: 400px;
+}
+
+.text2 {
+    text-align: center;
+    padding-top: 64px;
+    font-size: 16px;
+    line-height: 26.25px;
+}
+
+.part3 {
+    background: #020509;
+}
+
+.pic {
+    display: flex;
+    justify-content: center;
+    padding-left: 300px;
+    padding-right: 300px;
+    
+    
+}
+
+.text3 {
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF ;
+    padding-bottom: 88px;
+}
+
+.img {
+    text-align: center;
+    padding-bottom: 16px;
+    padding-top: 83px;
+}
+
+.box {
+    padding-right: 117px;
+}
+
+.part4 {
+    background: #00CFFA 5;
+}
+
+.lorem3 {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.mywork {
+    width: 540px;
+    padding-top: 84px;
+    padding-left: 690px;
+    padding-right: 690px;
+
+}
+
+.mywork > h2 {
+    
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 37.5px;
+    text-align: center;
+}
+
+.mywork > .text2 {
+    padding-bottom: 84px;
+    
+}
+
+.button2 {
+    padding-bottom: 64px;
+}
+
+.imgcode {
+    padding-bottom: 69px;
+}
+
+.part5 {
+    background: #020509;
+}
+
+.footer {
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    
+}
+
+.footertext {
+    color: #FFFFFF;
+    padding: 35px 828px 33.75px 828px;
+    text-align: center;
+    width: 264px;
+
+
+}
